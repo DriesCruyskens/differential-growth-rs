@@ -1,5 +1,7 @@
 # Differential Growth Rust
 
+![example1](https://github.com/DriesCruyskens/differential-growth-rs/raw/main/images/example1.gif)
+
 ## Overview
  
 This crate provides a very easy to use Differential Growth algorithm as well as an example sketch using the excellent [nannou](https://crates.io/crates/nannou) crate.

@@ -6,6 +6,8 @@
 //! 
 //! # Overview
 //! 
+//! ![example1](https://github.com/DriesCruyskens/differential-growth-rs/raw/main/images/example1.gif)
+//! 
 //! This crate provides a very easy to use Differential Growth algorithm as well as an example sketch using the excellent [nannou](https://crates.io/crates/nannou) crate.
 //! It's as simple as providing a Vec of starting points, calling [`DifferentialGrowth::tick()`] to advance one iteration of the algorithm and obtaining the new state
 //! using [`DifferentialGrowth::get_points()`].
