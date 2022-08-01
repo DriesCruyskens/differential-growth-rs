@@ -42,7 +42,7 @@ impl DifferentialGrowth {
     /// ```
     /// 
     pub fn new(
-        input_nodes: Vec<Point2<f64>>,
+        input_points: Vec<Point2<f64>>,
         max_force: f64,
         max_speed: f64,
         desired_separation: f64,
@@ -51,7 +51,7 @@ impl DifferentialGrowth {
     ) -> DifferentialGrowth {
         // Convert points to Nodes.
         let nodes: Vec<Node> =
-            input_nodes
+            input_points
                 .into_iter()
                 .map(|point: Point2<f64>| Node::new(point, max_speed, max_force))
                 .collect();
