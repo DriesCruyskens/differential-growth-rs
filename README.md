@@ -49,8 +49,8 @@ let points_to_draw: Vec<Point2<f64>> = dg.get_points();
 ```
 
 ## References
-http://www.codeplastic.com/2017/07/22/differential-line-growth-with-processing/
-https://processing.org/examples/flocking.html
-https://inconvergent.net/2016/shepherding-random-growth/
-https://inconvergent.net/generative/differential-line/
-http://www.dgp.toronto.edu/~karan/artexhibit/mazes.pdf
+- http://www.codeplastic.com/2017/07/22/differential-line-growth-with-processing/
+- https://processing.org/examples/flocking.html
+- https://inconvergent.net/2016/shepherding-random-growth/
+- https://inconvergent.net/generative/differential-line/
+- http://www.dgp.toronto.edu/~karan/artexhibit/mazes.pdf
