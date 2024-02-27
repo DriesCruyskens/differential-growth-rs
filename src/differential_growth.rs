@@ -252,7 +252,7 @@ impl DifferentialGrowth {
             sum.add_assign(self.nodes[n - 1 - 1].position.coords);
             sum.add_assign(self.nodes[0].position.coords);
             sum.div_assign(2.0);
-            cohesion_forces.push(self.nodes[0].seek(&sum));
+            cohesion_forces.push(self.nodes[n - 1].seek(&sum));
         }
 
         return cohesion_forces;
